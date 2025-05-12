@@ -51,7 +51,7 @@ It serves as both a prompt generator and an interactive guide to TAL's core conc
 
 ## 📝 日本語論文 PDF / Japanese Paper
 
-➡️ [TAL 日本語論文 PDF](./docs/tal_paper_jp.pdf)
+➡️ [TAL 日本語論文 PDF](https://raw.githubusercontent.com/tanep3/TAL/main/docs/tal_paper_jp.pdf)
 
 ---
 
