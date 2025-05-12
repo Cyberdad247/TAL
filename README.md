@@ -70,10 +70,26 @@ The English preprint is published on Zenodo:
 
 ---
 
+## 💬 ディスカッション / Discussions
+
+TALについての感想・活用事例・構文案・疑問など、なんでも気軽に話せる場所を開設しました。  
+Discussions is open for your thoughts, feedback, ideas, and use-cases related to TAL.
+
+🗣 こちらから参加できます！  
+➡️ [GitHub Discussions](https://github.com/tanep3/TAL/discussions)
+
+---
+
 ## 🙌 コントリビューション / Contributions
 
 Issue・Pull Request歓迎です！質問や提案がある方もお気軽にどうぞ。  
-Feel free to open issues or pull requests. Feedback and suggestions are welcome!
+構文の改善・追加・バグ修正・構文テンプレートの共有など、貢献も大歓迎です！  
+Feel free to open issues or pull requests. Feedback and suggestions are welcome!  
+We're happy to welcome contributions such as improvements, new syntax ideas, or bug fixes.  
+
+✍️ Issue投稿やPRはこちら：  
+➡️ [GitHub Issues](https://github.com/tanep3/TAL/issues)  
+➡️ [Pull Requests](https://github.com/tanep3/TAL/pulls)  
 
 ---
 
