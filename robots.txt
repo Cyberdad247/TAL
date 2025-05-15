@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tanep3.github.io/TAL/sitemap-io.xml
+Sitemap: https://tanep3.github.io/TAL/sitemap-github.xml

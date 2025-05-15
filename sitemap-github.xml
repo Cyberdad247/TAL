@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- 🔗 GitHubトップ -->
+  <url>
+    <loc>https://github.com/tanep3/TAL</loc>
+  </url>
+
+  <!-- 📘 英語ドキュメント (.md) -->
+  <url>
+    <loc>https://github.com/tanep3/TAL/blob/main/docs/FAQ.md</loc>
+  </url>
+  <url>
+    <loc>https://github.com/tanep3/TAL/blob/main/docs/Recursion.md</loc>
+  </url>
+  <url>
+    <loc>https://github.com/tanep3/TAL/blob/main/docs/TAL_blocks.md</loc>
+  </url>
+
+  <!-- 🇯🇵 日本語ドキュメント (.md) -->
+  <url>
+    <loc>https://github.com/tanep3/TAL/blob/main/docs/FAQ_jp.md</loc>
+  </url>
+  <url>
+    <loc>https://github.com/tanep3/TAL/blob/main/docs/Recursion_jp.md</loc>
+  </url>
+  <url>
+    <loc>https://github.com/tanep3/TAL/blob/main/docs/TAL_blocks_jp.md</loc>
+  </url>
+
+  <!-- 📄 論文PDF（GitHub上） -->
+  <url>
+    <loc>https://github.com/tanep3/TAL/blob/main/docs/tal_paper_jp.pdf</loc>
+  </url>
+
+  <!-- 💬 Discussionsページ -->
+  <url>
+    <loc>https://github.com/tanep3/TAL/discussions</loc>
+  </url>
+
+  <!-- Zenodo TAL論文のページ -->
+  <url>
+    <loc>https://zenodo.org/records/15379276</loc>
+    <lastmod>2025-05-15</lastmod>
+  </url>
+
+</urlset>
