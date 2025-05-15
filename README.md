@@ -14,6 +14,17 @@ Instead of imperative commands, TAL serves as an OS-like interface to explicitly
 
 ---
 
+## 📚 ドキュメント一覧 / Documentation Index
+
+- 📖 [TAL Blocks 解説書 / Block Specification Guide (JP)](docs/TAL_blocks_jp.md)  
+- 📖 [TAL Blocks Documentation (EN)](docs/TAL_blocks.md)  
+- 🔁 [再帰構文設計ガイド / Recursion in TAL (JP)](docs/Recursion_jp.md)  
+- 🔁 [TAL Recursion Guide (EN)](docs/Recursion.md)  
+- ❓ [FAQ（よくある質問）(JP)](docs/FAQ_jp.md)  
+- ❓ [FAQ (EN)](docs/FAQ.md)
+
+---
+
 ## ✨ 特徴 / Features
 
 1. **構造化された文法**により、AIに対して明確な思考フレームを提示可能。  
