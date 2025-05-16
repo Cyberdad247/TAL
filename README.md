@@ -30,7 +30,7 @@ Instead of imperative commands, TAL serves as an OS-like interface to explicitly
 1. **構造化された文法**により、AIに対して明確な思考フレームを提示可能。  
    Structured grammar offers clear cognitive frameworks to AI.
 
-2. **TALコンパイラ（TALC）** を用いることで、複雑なTAL構文の記述・運用・変換を自動化できる。  
+2. **TALコンパイラ** (**TALC**) を用いることで、複雑なTAL構文の記述・運用・変換を自動化できる。  
    With the TAL Compiler (TALC), you can automate the creation, transformation, and usage of TAL syntax.
 
 3. **既存のプロンプト技術をTALでラッピング**することで、性能の底上げが可能となる。  
@@ -103,6 +103,22 @@ We're happy to welcome contributions such as improvements, new syntax ideas, or 
 ✍️ Issue投稿やPRはこちら：  
 ➡️ [GitHub Issues](https://github.com/tanep3/TAL/issues)  
 ➡️ [Pull Requests](https://github.com/tanep3/TAL/pulls)  
+
+---
+
+## 📚 TALをもっと知りたい方へ / Learn More about TAL 
+
+### 🌸 日本語ブログ（たねちゃんねるテクノロジー WEB版）  
+📝 [Official Blog (JP)](https://tanep.work/tanech/)
+
+TAL（Tree-structured Assembly Language）について、日本語で丁寧に解説しています。
+
+---
+
+### 🌍 English Article on Medium  
+📝 [Medium (EN)](https://tanep3.medium.com/)
+
+TAL is a prompt OS that gives AI structured thought instead of commands. This article introduces the idea in English with clear logic and practical examples.
 
 ---
 
