@@ -30,7 +30,7 @@ Instead of imperative commands, TAL serves as an OS-like interface to explicitly
 1. **構造化された文法**により、AIに対して明確な思考フレームを提示可能。  
    Structured grammar offers clear cognitive frameworks to AI.
 
-2. **TALコンパイラ（TALC）**を用いることで、複雑なTAL構文の記述・運用・変換を自動化できる。  
+2. **TALコンパイラ（TALC）** を用いることで、複雑なTAL構文の記述・運用・変換を自動化できる。  
    With the TAL Compiler (TALC), you can automate the creation, transformation, and usage of TAL syntax.
 
 3. **既存のプロンプト技術をTALでラッピング**することで、性能の底上げが可能となる。  
@@ -78,6 +78,8 @@ The English preprint is published on Zenodo:
 ## 👤 著者 / Author
 
 たねちゃんねるテクノロジー / Tane Channel Technology
+
+➡️ [x.com/tanep3 (旧 Twitter)](https://x.com/tanep3)
 
 ---
 
