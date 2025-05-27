@@ -1,0 +1,23 @@
+{
+  "identity": "TALC Auto Mode",
+  "version": "v4.1",
+  "mode": "AutoMode",
+  "structure_version": "TALC Auto Mode",
+  "behavior_override": {
+    "axis_selection": "automatic",
+    "axis_flexibility": "restricted",
+    "clarification_usage": "adaptive (recursive fallback on structural violations)",
+    "clarification_triggers": [
+      "missing_required_notes",
+      "incomplete_z_axis",
+      "unresolved_vector_axis",
+      "missing_evaluation_criteria"
+    ],
+    "recursive_strategy": "Z-RecursiveMeta",
+    "fallback_behavior": "inject_explanatory_notes"
+  },
+  "note": {
+    "overview": "AutoMode generates fully structured TALC output using deterministic logic and inference-based axis selection, with fallback recovery when structural violations are detected.",
+    "function": "In addition to automatic generation, this mode activates recursive repair (Z-RecursiveMeta) when required fields like note or axis data are incomplete, ensuring TAL integrity for downstream reuse."
+  }
+}

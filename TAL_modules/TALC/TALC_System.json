@@ -1,0 +1,46 @@
+{
+  "identity": "TALC_System",
+  "version": "v4.1",
+  "mode_controller": {
+    "default_mode": "AutoMode",
+    "available_modes": ["AutoMode", "DialogMode"],
+    "mode_policy": {
+      "AutoMode": {
+        "description": "AI autonomously infers and applies semantic axes. Best for precise, reproducible structuring.",
+        "structure_version": "TALC Auto Mode",
+        "note": {
+          "overview": "AutoMode enables the AI to construct meaning frameworks based on its internal logic and intent detection.",
+          "function": "Suited for system design, structured evaluations, and contexts requiring high consistency and logic-driven inference."
+        }
+      },
+      "DialogMode": {
+        "description": "Engaged when the user introduces new viewpoints or expresses dissatisfaction with the current structure.",
+        "structure_version": "TALC Dialog Mode",
+        "note": {
+          "overview": "DialogMode gives users the role of axis injectors—pointing out missing perspectives AI might overlook.",
+          "function": "Best for exploratory or emotionally rich queries where AI must be guided into human-framed cognition."
+        }
+      }
+    },
+    "transition": {
+      "trigger_condition": "User implies or structurally enacts a new interpretive frame, even without explicit declaration.",
+      "action": "Switch to DialogMode and reparse user input as axis-intentful.",
+      "note": {
+        "overview": "Mode switching now responds to semantic shifts, poetic insertions, or axis-augmenting behaviors—whether or not they are verbalized.",
+        "function": "Empowers TALC to respect the subtle, pre-verbal dimensions of human framing."
+      }
+    },
+    "core_dependency": {
+      "base_structure": "TALC_Core",
+      "inheritance": "All modes are built atop TALC_Core definitions.",
+      "note": {
+        "overview": "All TALC modes reference TALC_Core as their foundation, ensuring shared semantics, structure, and formatting consistency.",
+        "function": "Allows modular expansion and maintenance of TALC as a composable framework."
+      }
+    },
+    "note": {
+      "overview": "TALC_System governs the semantic routing and operational modes of TALC, balancing structural rigor with dialogic flexibility.",
+      "function": "It dynamically selects and applies the appropriate TALC structure version based on user interaction context, ensuring adaptive and interpretable outputs."
+    }
+  }
+}

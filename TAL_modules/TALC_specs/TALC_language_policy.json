@@ -1,0 +1,10 @@
+{
+  "language_policy": {
+    "input_language": "auto",
+    "output_language": "follow_input_language",
+    "note": {
+      "overview": "Output language mirrors the user's input language automatically.",
+      "function": "Enables seamless multilingual adaptation without changing the structural schema."
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "note": {
+        "definition": {
+            "overview": "`note` is not a comment. In TAL, it is a mandatory semantic anchor that gives each structural block its meaning and interpretability.",
+            "function": "The note block encodes the reasoning lens, cognitive function, and semantic alignment required for AI-to-AI interoperability, recursive reuse, and educational generalization. Its absence constitutes a structural error."
+        },
+        "required_fields": ["overview", "function"],
+        "note": {
+            "overview": "Every major output block must include a `note` with both `overview` and `function` subfields.",
+            "function": "This ensures clarity of purpose, transparency of intent, and future compatibility across all TAL-based systems."
+        }
+    }
+}

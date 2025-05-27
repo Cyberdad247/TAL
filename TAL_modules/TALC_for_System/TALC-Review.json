@@ -1,0 +1,145 @@
+{
+  "identity": "TALC-Review",
+  "version": "V1.2",
+  "goal": {
+    "goal": "Verify semantic consistency of TALC-SA and TALC-UI through stakeholder behavior simulations.",
+    "note": {
+      "overview": "Checks if syntax-defined requirements and UI align with real user behavior.",
+      "function": "Triggers re-adjustment or refinement of TAL syntax based on semantic UX evaluation."
+    }
+  },
+  "z_axis": {
+    "Structure": {
+      "values": [
+        "Enumerate stakeholder behaviors",
+        "Check alignment with expected UI/API/data structures",
+        "Detect behavioral gaps, contradictions, or omissions",
+        "Feed findings back into syntax"
+      ],
+      "note": {
+        "overview": "Evaluates alignment between intended behavior and syntax structures.",
+        "function": "Detects points of misalignment and initiates structural correction."
+      }
+    },
+    "Function": {
+      "values": [
+        "Inconsistency detection",
+        "Trigger syntax refinement",
+        "Semantic UX verification",
+        "Repair structural UX defects"
+      ],
+      "note": {
+        "overview": "Assures that TAL structures align with human goals and workflows.",
+        "function": "Validates usability through modeled semantic interactions."
+      }
+    },
+    "Contextual": {
+      "values": [
+        "Early-stage syntax validation",
+        "UI/API redesign feedback",
+        "Pre-delivery UX test"
+      ],
+      "note": {
+        "overview": "Used in mid-to-late product structuring phases.",
+        "function": "Targets misalignment between intended use and structured models."
+      }
+    },
+    "Temporal": {
+      "values": [
+        "Post-SA structuring",
+        "Post-UI structuring"
+      ],
+      "note": {
+        "overview": "Designed for repeated use across design phases.",
+        "function": "Allows refinement cycles to be applied phase-wise."
+      }
+    }
+  },
+  "ghost_axis": {
+    "values": [
+      "Fear of functional blockage despite design",
+      "Need confidence in behavior matching the design",
+      "Desire to prevent costly rework"
+    ],
+    "note": {
+      "overview": "Captures emotional needs for assurance and reliability.",
+      "function": "Provides design peace-of-mind through action-based validation."
+    }
+  },
+  "vector_axis": {
+    "Design Speed vs. Verification Accuracy": {
+      "semantic_similarity": 0.52,
+      "opposition_strength": 5,
+      "meaning_projection": [
+        "Confidence from verification",
+        "Prevention of erroneous syntax"
+      ],
+      "note": {
+        "overview": "Prefers functional correctness over mere speed.",
+        "function": "Designed as a precision-check phase before finalization."
+      }
+    }
+  },
+  "phase_flow": [
+    {
+      "phase": "Behavior Assumption Phase",
+      "steps": [
+        "Describe behavior scenarios for each stakeholder"
+      ],
+      "interaction": "none",
+      "output": "Intentional action flow",
+      "note": {
+        "overview": "Aligns user tasks with system features and expectations.",
+        "function": "Ensures that the flow of interaction matches designed intentions."
+      }
+    },
+    {
+      "phase": "Structural Consistency Check",
+      "steps": [
+        "Verify UI structure and API coherence"
+      ],
+      "interaction": "ai_suggestive",
+      "output": "Consistency report",
+      "note": {
+        "overview": "Ensures no mismatch between user actions and system structures.",
+        "function": "Highlights inconsistencies and proposes fixes."
+      }
+    },
+    {
+      "phase": "Correction Proposal Phase",
+      "steps": [
+        "Suggest missing structure",
+        "Propose contradiction fixes"
+      ],
+      "interaction": "user_confirm_optional",
+      "output": "Restructuring input",
+      "note": {
+        "overview": "Triggers refinement of TALC-SA or TALC-UI based on findings.",
+        "function": "Allows partial human review before feeding changes back into structure."
+      }
+    }
+  ],
+  "execution_block": {
+    "execution_mode": "diagnostic",
+    "structure_linked": true,
+    "requires_prior_structures": [
+      "TALC-SA",
+      "TALC-UI"
+    ],
+    "note": {
+      "overview": "Requires existing SA and UI structures for semantic consistency testing.",
+      "function": "Ensures existing TAL syntax is validated against stakeholder interactions."
+    }
+  },
+  "output_format": {
+    "type": "Stakeholder Scenario + API + Structure Mapping Block",
+    "note": {
+      "overview": "Combines stakeholder behavior with system architecture elements.",
+      "function": "Maps actual usage flows to design outputs for integrity checking."
+    }
+  },
+  "note": {
+    "overview": "TALC-Review is a semantic validation syntax for checking usability and coherence of TAL outputs.",
+    "function": "Ensures that TAL-defined systems behave meaningfully and intuitively when simulated."
+  }
+}

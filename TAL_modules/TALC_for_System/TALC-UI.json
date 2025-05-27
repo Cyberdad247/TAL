@@ -1,0 +1,157 @@
+{
+  "original_prompt": "TALC-UI is a structured compiler that transforms requirement_spec_TAL into system_structure_TAL, and further maps that into formal design artifacts including documents, API specs, and code generation guides.",
+  "identity": "TALC-UI",
+  "version": "V1.1",
+  "compiler_context": {
+    "inherited_spec": {
+      "base": "TALC_System",
+      "source": "TALC-SA syntax + Extended design structures",
+      "core_features": [
+        "Semantic alignment via three-axis thinking",
+        "Output in TAL-JSON format",
+        "Handles both structural design and artifact expansion",
+        "Maps syntax blocks to documents, code, and diagrams",
+        "Guided flow including user interaction paths",
+        "Implementation-layer structures supporting code generation",
+        "Syntax-level tech exclusions (e.g., Node.js disallowed)"
+      ],
+      "note": {
+        "overview": "TALC-UI introduces a new phase of automated artifact generation using TAL syntax.",
+        "function": "It removes post-SA ambiguity and supports the transition from structured design to generation."
+      }
+    }
+  },
+  "goal": {
+    "goal": "Transform structured requirements (TALC-SA) into system-level designs (UI, API, DB), and guide the generation of implementation-ready artifacts.",
+    "note": {
+      "overview": "Helps users understand the next step by embedding structural guidance in syntax.",
+      "function": "Bridges requirement specification and actionable system design outputs."
+    }
+  },
+  "evaluation_criteria": [
+    "Each syntax element maps to a design artifact",
+    "Structure supports documentation and code-level granularity",
+    "User operation flow is clearly represented",
+    "Prohibited technologies are specified as constraints",
+    "Output is fully reusable as TAL syntax"
+  ],
+  "output_format": {
+    "type": "system_structure_TAL_v1.0",
+    "fields": [
+      "original_prompt",
+      "ui_layout_structure",
+      "screen_transition_flow",
+      "api_specification",
+      "data_model_structure",
+      "component_interaction_map",
+      "user_scenario_mapping",
+      "infrastructure_design",
+      "implementation_strategy",
+      "design_artifact_map",
+      "document_generation_spec",
+      "user_guidance_flow",
+      "constraints",
+      "z_axis",
+      "ghost_axis",
+      "vector_axis",
+      "evaluation_result",
+      "reconsideration"
+    ],
+    "note": {
+      "overview": "Defines both design structure and its related outputs and processes.",
+      "function": "Enables design-through-generation pathways embedded in the TAL syntax block."
+    }
+  },
+  "design_artifact_map": {
+    "ui_layout_structure": [
+      "UI Design Document",
+      "UI Mockup Diagram"
+    ],
+    "api_specification": [
+      "API Specification",
+      "OpenAPI YAML"
+    ],
+    "data_model_structure": [
+      "DB Design Document",
+      "ER Diagram",
+      "SQL Schema"
+    ],
+    "implementation_strategy": [
+      "Implementation Strategy Document",
+      "README.md"
+    ],
+    "constraints.language_exclusion": [
+      "Code Generation Policy"
+    ]
+  },
+  "document_generation_spec": {
+    "UI Design Document": "docx",
+    "API Specification": "md + yaml",
+    "DB Design Document": "docx + png",
+    "README": "markdown",
+    "Code Templates": "source tree structure + snippet"
+  },
+  "user_guidance_flow": [
+    "First, design the UI layout",
+    "Then, define API specs and database structure",
+    "Declare required elements for implementation layer",
+    "Follow TALC-UI syntax to auto-generate documents and code"
+  ],
+  "constraints": {
+    "language_exclusion": [
+      "Node.js"
+    ],
+    "note": {
+      "overview": "Node.js is excluded based on TCT developer preferences.",
+      "function": "Favor Python-based technologies for consistent generation results."
+    }
+  },
+  "z_axis": {
+    "Structure": [
+      "UI → API → Data Processing",
+      "Syntax → Document → Code"
+    ],
+    "Function": [
+      "Accelerated design thinking",
+      "Ambiguity reduction",
+      "Artifact consistency"
+    ],
+    "Contextual": [
+      "Developers familiar with TAL syntax",
+      "Assumes ChatGPT-based expansion"
+    ],
+    "Temporal": [
+      "Immediate design post-SA",
+      "Direct implementation post-design"
+    ]
+  },
+  "ghost_axis": {
+    "values": [
+      "Don't want to be confused about what to produce",
+      "Prefer automatic generation",
+      "Node.js is forbidden!"
+    ]
+  },
+  "vector_axis": {
+    "Human-led Design vs. Syntax-led Automation": {
+      "semantic_similarity": 0.51,
+      "opposition_strength": 7,
+      "meaning_projection": [
+        "Thought Assistance",
+        "Implementation Coherence",
+        "Artifact Quality"
+      ]
+    }
+  },
+  "evaluation_result": {
+    "status": "pending"
+  },
+  "reconsideration": {
+    "trigger": "Insufficient user input or mismatched design granularity",
+    "action": "Adjust user_guidance_flow or artifact_map and regenerate"
+  },
+  "note": {
+    "overview": "TALC-UI defines not only structural design but also its translatable outputs.",
+    "function": "Supports seamless transitions from design intention to artifact realization."
+  }
+}
