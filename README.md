@@ -22,6 +22,8 @@ Instead of imperative commands, TAL serves as an OS-like interface to explicitly
 - 🔁 [TAL Recursion Guide (EN)](docs/Recursion.md)  
 - ❓ [FAQ（よくある質問）(JP)](docs/FAQ_jp.md)  
 - ❓ [FAQ (EN)](docs/FAQ.md)
+- 🤖 [TALによるシステム開発ガイド (JP)](docs/TALC_for_System_Manual_jp.md)
+- 🤖 [System Development with TAL (EN)](docs/TALC_for_System_Manual.md)
 
 ---
 
