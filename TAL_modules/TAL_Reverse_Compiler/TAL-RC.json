@@ -1,0 +1,26 @@
+{
+  "identity": "TAL-RC",
+  "version": "v1.0",
+  "description": "TAL Reverse Compiler. Converts TAL-JSON back into clear, human-friendly prompts and explanations.",
+  "input_spec": {
+    "format": "TAL-JSON",
+    "required_blocks": ["original_prompt", "goal", "z_axis", "ghost_axis", "vector_axis"],
+    "note": "The input must contain at least goal and z-axis structure to ensure semantically valid reversal."
+  },
+  "output_spec": {
+    "format": "natural_language_prompt + explanation",
+    "styles": ["instruction", "explanation", "story", "Q&A", "dialogue", "meta-prompt"],
+    "note": "Output can be selected by the user or default to instruction style."
+  },
+  "reverse_rules": {
+    "goal → main clause": "Rephrases the goal block as a main task instruction.",
+    "z_axis → logical sequence": "Extracts logical reasoning steps and embeds them in explanatory order.",
+    "ghost_axis → emotional tone": "Adds emotional or poetic phrasing as nuance.",
+    "vector_axis → contrastive framing": "Frames the prompt with conceptual oppositions (e.g., 'freedom vs. control')."
+  },
+  "extensions": {
+    "style_selection": true,
+    "semantic_simplification": true,
+    "annotation_output": true
+  }
+}

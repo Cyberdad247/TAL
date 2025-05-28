@@ -81,7 +81,7 @@ You can access it directly via the link below:
 
 ## 📂 Public Resource Structure
 
-1. TALC Core Modules
+1. TAL Compiler Core Modules
 
    * [`TALC_System.json`](../TAL_modules/TALC/TALC_System.json): System control flow of TALC
    * [`TALC_Core.json`](../TAL_modules/TALC/TALC_Core.json): Core modules of TALC
@@ -99,6 +99,10 @@ You can access it directly via the link below:
    * [`TALC-SA.json`](../TAL_modules/TALC_for_System/TALC-SA.json): Requirements definition module
    * [`TALC-UI.json`](../TAL_modules/TALC_for_System/TALC-UI.json): System design module
    * [`TALC-Review.json`](../TAL_modules/TALC_for_System/TALC-Review.json): Self-check module
+
+4. TAL Reverse Compiler
+
+   * [`TAL-RC.json`](../TAL_modules/TAL_Reverse_Compiler/TAL-RC.json): TAL reverse compiler (converts TAL syntax to natural language)
 
 ---
 

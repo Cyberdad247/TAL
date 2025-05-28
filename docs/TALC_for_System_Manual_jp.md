@@ -83,7 +83,7 @@ TALC for System は、GPTs上のアシスタントとして利用できます。
 
 ## 📂 公開リソース構成
 
-1. TALC(TALC core modules)
+1. TALC(TALコンパイラ コアモジュール)
 
    * [`TALC_System.json`](../TAL_modules/TALC/TALC_System.json): TALCのシステム制御フロー
    * [`TALC_Core.json`](../TAL_modules/TALC/TALC_Core.json): TALCのコアモジュール
@@ -101,6 +101,10 @@ TALC for System は、GPTs上のアシスタントとして利用できます。
    * [`TALC-SA.json`](../TAL_modules/TALC_for_System/TALC-SA.json): 要件定義モジュール
    * [`TALC-UI.json`](../TAL_modules/TALC_for_System/TALC-UI.json): システム設計モジュール
    * [`TALC-Review.json`](../TAL_modules/TALC_for_System/TALC-Review.json): 自己チェックモジュール
+
+4. TAL Reverse Compiler
+
+   * [`TAL-RC.json`](../TAL_modules/TAL_Reverse_Compiler/TAL-RC.json): TALリバースコンパイラ（TAL構文を自然言語に変換）
 
 ---
 
