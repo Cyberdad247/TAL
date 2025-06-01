@@ -1,5 +1,7 @@
 
 # TAL (Tree-structured Assembly Language)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15379276.svg)](https://zenodo.org/records/15379276)
+[![Paper](https://img.shields.io/badge/PDF-TAL%20Paper-blue)](https://zenodo.org/records/15379276)
 
 ## 📖 概要 / Overview
 
@@ -16,10 +18,12 @@ Instead of imperative commands, TAL serves as an OS-like interface to explicitly
 
 ## 📚 ドキュメント一覧 / Documentation Index
 
-- 📖 [TAL Blocks 解説書 / Block Specification Guide (JP)](docs/TAL_blocks_jp.md)  
+- 📖 [TAL Blocks 解説書 (JP)](docs/TAL_blocks_jp.md)  
 - 📖 [TAL Blocks Documentation (EN)](docs/TAL_blocks.md)  
-- 🔁 [再帰構文設計ガイド / Recursion in TAL (JP)](docs/Recursion_jp.md)  
+- 🔁 [再帰構文設計ガイド (JP)](docs/Recursion_jp.md)  
 - 🔁 [TAL Recursion Guide (EN)](docs/Recursion.md)  
+- ⏩ [TALにおける並列処理 (JP)](docs/Parallel_Processing_in_TAL_jp.md)  
+- ⏩ [Parallel Processing in TAL (EN)](docs/Parallel_Processing_in_TAL.md)  
 - ❓ [FAQ（よくある質問）(JP)](docs/FAQ_jp.md)  
 - ❓ [FAQ (EN)](docs/FAQ.md)
 - 🤖 [TALによるシステム開発ガイド (JP)](docs/TALC_for_System_Manual_jp.md)
