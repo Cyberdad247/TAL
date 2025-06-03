@@ -18,14 +18,26 @@ Instead of imperative commands, TAL serves as an OS-like interface to explicitly
 
 ## 📚 ドキュメント一覧 / Documentation Index
 
+### 🚀 世界初のAIのためのプロンプトOS・TALOS解説
+
+- 🧠 [TALOSの導入と使い方 (JP)](docs/README_TALOS_jp.md)
+- 🧠 [TALOS Installation & Usage Guide (EN)](docs/README_TALOS.md)
+
+### 🚀 TALの構造説明 / Structural explanation of TAL
 - 📖 [TAL Blocks 解説書 (JP)](docs/TAL_blocks_jp.md)  
 - 📖 [TAL Blocks Documentation (EN)](docs/TAL_blocks.md)  
 - 🔁 [再帰構文設計ガイド (JP)](docs/Recursion_jp.md)  
 - 🔁 [TAL Recursion Guide (EN)](docs/Recursion.md)  
 - ⏩ [TALにおける並列処理 (JP)](docs/Parallel_Processing_in_TAL_jp.md)  
 - ⏩ [Parallel Processing in TAL (EN)](docs/Parallel_Processing_in_TAL.md)  
+
+### 🚀 FAQ
+
 - ❓ [FAQ（よくある質問）(JP)](docs/FAQ_jp.md)  
 - ❓ [FAQ (EN)](docs/FAQ.md)
+
+### 🚀 Vibe Coding Guide
+
 - 🤖 [TALによるシステム開発ガイド (JP)](docs/TALC_for_System_Manual_jp.md)
 - 🤖 [System Development with TAL (EN)](docs/TALC_for_System_Manual.md)
 
